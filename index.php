@@ -84,6 +84,7 @@
 
 		<div class="section">
 			<h1>About Us</h1>
+			<p class="big">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
 
 			<div class="row">
 				<div class="col-sm-3">
@@ -91,7 +92,7 @@
 						<div class="people_img"><img src="./img/people_erika.png"></div>
 						<div class="people_name">Erika Styger</div>
 						<div class="people_job">Director of Programs</div>
-						<div class="people_description"> for SRI-Rice. She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
+						<div class="people_description">She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
 					</div>
 				</div>
 
@@ -100,7 +101,7 @@
 						<div class="people_img"><img src="./img/people_lucy.png"></div>
 						<div class="people_name">Lucy Fisher</div>
 						<div class="people_job">Director of Communications</div>
-						<div class="people_description">She oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI website (http://sririce.org) and social networking sites.</div>
+						<div class="people_description">Oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI websiteand social networking sites.</div>
 					</div>
 				</div>
 
@@ -120,7 +121,7 @@
 						<div class="people_img"><img src="./img/people_norman.png"></div>
 						<div class="people_name">Norman Uphoff </div>
 						<div class="people_job">Senior Advisor</div>
-						<div class="people_description"> for SRI-Rice. He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000, helping to build up the International SRI Network and strengthen the knowledge base for SRI and its extension to other crops.</div>
+						<div class="people_description">He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000...</div>
 					</div>
 				</div>
 			</div>
@@ -132,6 +133,7 @@
 
 		<div class="section">
 			<h1>Projects</h1>
+			<p class="big">Cornell's SRI-Rice Center has a broad impact across the world.</p>
 
 			<br><br>
 		</div>

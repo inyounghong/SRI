@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
 * {
   font-family: "Open Sans"; }
 
@@ -9,9 +10,14 @@
 .section {
   padding: 50px 0; }
 
+p.big {
+  font-family: "PT Serif";
+  font-size: 20px;
+  width: 80%;
+  margin: 10px auto 40px;
+  line-height: 1.5em; }
+
 h1 {
-  font-size: 30px;
-  font-weight: 600;
   text-align: center;
   margin: 10px 0 30px; }
 
@@ -25,7 +31,11 @@ h1 {
   box-sizing: border-box;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 20px auto; }
+  margin: 20px auto;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
   .button:hover {
     color: #fff; }
 
@@ -76,7 +86,11 @@ h1 {
   text-align: center;
   border: 1px solid #eee;
   padding: 30px 15px;
-  height: 400px; }
+  height: 350px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
   .people_wrap .people_img {
     width: 100px;
     height: 100px;

@@ -6,7 +6,7 @@ $green: #7FC356
 // Fonts
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900)
-
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic)
 
 // Mixins 
 
@@ -32,12 +32,17 @@ $green: #7FC356
 .section
     padding: 50px 0
 
+p.big
+    font-family: "PT Serif"
+    font-size: 20px
+    width: 80%
+    margin: 10px auto 40px
+    line-height: 1.5em
+
 
 // Headers
 
 h1
-    font-size: 30px
-    font-weight: 600
     text-align: center
     margin: 10px 0 30px
 
@@ -54,9 +59,11 @@ h1
     text-transform: uppercase
     font-weight: 600
     margin: 20px auto
+    +border-radius(20px)
 
     &:hover
         color: #fff
+
 
 // Navigation Bar
 
@@ -117,7 +124,8 @@ h1
     text-align: center
     border: 1px solid #eee
     padding: 30px 15px
-    height: 400px
+    height: 350px
+    +border_radius(5px)
 
     .people_img
         width: 100px
