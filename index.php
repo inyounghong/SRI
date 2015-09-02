@@ -11,27 +11,21 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="./css/resonsiveslides.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/unslider.css" media="screen">
     <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen">
+
+    <!-- No background for nav bar on front page -->
+    <style>
+    	.nav-background{
+    		display: none;
+    	}
+    </style>
     
     <!-- Javascript -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/scroll.js"></script>
-
-    <!-- Slider Javascript -->
-    <script src="./js/responsiveslides.min.js"></script>
-    <script>
-      // Cover slider function
-      $(function () {
-        $(".rslides").responsiveSlides({
-          auto: true,
-          timeout: 4000,  
-          pager: true,
-          speed: 800,
-        });
-      });
-    </script>
+	<script src="./js/unslider.min.js"></script>
     
 </head>
 <body>
@@ -39,18 +33,40 @@
 	<?php include './includes/navigation.html' ?>
 
 	<!-- Slider -->
-	<div class="cover">
-		<ul class="rslides" id="slider2">
-			<li>
-				<img src="img/rice.jpg">
-				<div class="caption">Random dummy image</div>
-			</li>
-			<li>
-				<img src="img/rice2.jpg">
-				<div class="caption">Other default image</div>
-			</li>
-		</ul>
-	</div>
+
+	<div class="banner">
+    <ul>
+        <li>
+        	<img src="img/rice.jpg">
+        	<div class="caption">This is a slide.</div>
+        </li>
+        <li>
+        	<img src="img/rice2.jpg">
+        	<div class="caption">This is a slide.</div>
+        </li>
+    </ul>
+
+    <!-- The HTML -->
+	<a href="#" class="unslider-arrow prev">Previous slide</a>
+	<a href="#" class="unslider-arrow next">Next slide</a>
+
+	<script>
+	    var unslider = $('.banner').unslider({
+			speed: 500,               //  The speed to animate each slide (in milliseconds)
+			delay: 3000,              //  The delay between slide animations (in milliseconds)
+			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+			dots: true,               //  Display dot navigation
+			fluid: false              //  Support responsive design. May break non-responsive designs
+		});
+	    
+	    $('.unslider-arrow').click(function() {
+	        var fn = this.className.split(' ')[1];
+	        
+	        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+	        unslider.data('unslider')[fn]();
+	    });
+	</script>
+</div>
 	
 	<div class="container">
 
