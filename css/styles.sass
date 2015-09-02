@@ -41,6 +41,22 @@ h1
     text-align: center
     margin: 10px 0 30px
 
+// Button
+
+.button
+    display: block
+    background: $green
+    color: #fff
+    padding: 10px 15px
+    width: 100px
+    text-align: center
+    +border-box
+    text-transform: uppercase
+    font-weight: 600
+    margin: 20px auto
+
+    &:hover
+        color: #fff
 
 // Navigation Bar
 
@@ -114,5 +130,9 @@ h1
             +border-radius(100%)
 
     .people_name
-        margin-bottom: 10px
+        margin-bottom: 5px
         font-weight: 600
+
+    .people_job
+        margin: 5px 0
+        font-style: italic

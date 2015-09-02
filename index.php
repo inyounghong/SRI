@@ -90,7 +90,8 @@
 					<div class="people_wrap">
 						<div class="people_img"><img src="./img/people_erika.png"></div>
 						<div class="people_name">Erika Styger</div>
-						<div class="people_description">Director of Programs for SRI-Rice. She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
+						<div class="people_job">Director of Programs</div>
+						<div class="people_description"> for SRI-Rice. She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
 					</div>
 				</div>
 
@@ -98,7 +99,8 @@
 					<div class="people_wrap">
 						<div class="people_img"><img src="./img/people_lucy.png"></div>
 						<div class="people_name">Lucy Fisher</div>
-						<div class="people_description">is Director of Communications at SRI-Rice. She oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI website (http://sririce.org) and social networking sites.</div>
+						<div class="people_job">Director of Communications</div>
+						<div class="people_description">She oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI website (http://sririce.org) and social networking sites.</div>
 					</div>
 				</div>
 
@@ -108,7 +110,8 @@
 					<div class="people_wrap">
 						<div class="people_img"><img src="./img/people_devon.png"></div>
 						<div class="people_name">Devon Jenkins</div>
-						<div class="people_description">Technical specialist with SRI-Rice assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div>
+						<div class="people_job">Technical Specialist</div>
+						<div class="people_description">assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div>
 					</div>
 				</div>
 
@@ -116,10 +119,13 @@
 					<div class="people_wrap">
 						<div class="people_img"><img src="./img/people_norman.png"></div>
 						<div class="people_name">Norman Uphoff </div>
-						<div class="people_description">Senior Advisor for SRI-Rice. He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000, helping to build up the International SRI Network and strengthen the knowledge base for SRI and its extension to other crops.</div>
+						<div class="people_job">Senior Advisor</div>
+						<div class="people_description"> for SRI-Rice. He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000, helping to build up the International SRI Network and strengthen the knowledge base for SRI and its extension to other crops.</div>
 					</div>
 				</div>
 			</div>
+
+			<a href="./aboutus.php" class="button">More</a>
 
 			<br><br>
 		</div>
