@@ -5,6 +5,9 @@
 .container {
   color: #333; }
 
+.section {
+  padding: 50px 0; }
+
 h1 {
   font-size: 30px;
   font-weight: 600; }
@@ -13,11 +16,95 @@ h1 {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   -ms-border-radius: 0;
-  border-radius: 0; }
+  border-radius: 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  border: none; }
+  .navbar .nav-background {
+    width: 100%;
+    z-index: 98;
+    position: absolute;
+    height: 55px;
+    display: none;
+    background: #7FC356; }
+  .navbar .container {
+    z-index: 99;
+    position: relative; }
 
 .navbar-default {
+  background: none;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px; }
+  .navbar-default a {
+    color: #fff; }
+
+.cover {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  z-index: 50; }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0; }
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left; }
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0; }
+
+.caption {
+  position: absolute;
+  right: 50px;
+  top: 370px;
+  z-index: 99;
+  padding: 20px 25px;
+  color: #fff;
+  background: #7FC356;
+  font-size: 18px;
+  font-weight: 600; }
+
+.rslides_tabs {
+  position: absolute;
+  z-index: 98;
+  bottom: 30px;
+  width: 100%;
+  text-align: center; }
+  .rslides_tabs li {
+    display: inline-block; }
+    .rslides_tabs li.rslides_here a {
+      background: #fff; }
+    .rslides_tabs li a {
+      border: 2px solid #fff;
+      display: block;
+      width: 12px;
+      height: 12px;
+      font-size: 0px;
+      margin: 0 10px;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      transition: all 0.2s; }
+      .rslides_tabs li a:hover {
+        background: #fff; }
 
 /*# sourceMappingURL=styles.css.map */

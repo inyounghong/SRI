@@ -11,45 +11,135 @@ $green: #7FC356
 // Mixins 
 
 =border-radius($radius)
-	-moz-border-radius: 	$radius
-	-webkit-border-radius: 	$radius
-	-ms-border-radius:     	$radius
-	border-radius: 			$radius
+    -moz-border-radius:     $radius
+    -webkit-border-radius:  $radius
+    -ms-border-radius:      $radius
+    border-radius:          $radius
 
 =border-box
-	box-sizing: border-box
+    box-sizing: border-box
 
 
 // Container
 
 *
-	font-family: "Open Sans"
+    font-family: "Open Sans"
 
 .container
-	color: #333
+    color: #333
 
 .section
+    padding: 50px 0
 
 
 // Headers
 
 h1
-	font-size: 30px
-	font-weight: 600
+    font-size: 30px
+    font-weight: 600
+
 
 // Navigation Bar
 
 .navbar
-	+border-radius(0)
+    +border-radius(0)
+    position: fixed
+    z-index: 99
+    width: 100%
+    border: none
+
+    .nav-background
+        width: 100%
+        z-index: 98
+        position: absolute
+        height: 55px
+        display: none
+        background: $green
+
+    .container
+        z-index: 99
+        position: relative
+
 
 .navbar-default
-	// background: $green
-	// color: #fff
-	text-transform: uppercase
-	font-weight: 600
-	font-size: 13px
+    background: none
+    text-transform: uppercase
+    font-weight: 600
+    font-size: 13px
 
-	a
-		//color: #fff!important
+    a
+        color: #fff
 
 
+// Slider
+
+.cover
+    height: 450px
+    overflow: hidden
+    position: relative
+    z-index: 50
+
+.rslides 
+    position: relative
+    list-style: none
+    overflow: hidden
+    width: 100%
+    padding: 0
+    margin: 0
+
+    li
+        -webkit-backface-visibility: hidden
+        position: absolute
+        display: none
+        width: 100%
+        left: 0
+        top: 0
+
+    li:first-child
+        position: relative
+        display: block
+        float: left
+
+    img
+        display: block
+        height: auto
+        float: left
+        width: 100%
+        border: 0
+
+.caption
+    position: absolute
+    right: 50px
+    top: 370px
+    z-index: 99
+    padding: 20px 25px
+    color: #fff
+    background: $green
+    font-size: 18px
+    font-weight: 600
+
+.rslides_tabs
+    position: absolute
+    z-index: 98
+    bottom: 30px
+    width: 100%
+    text-align: center
+    
+    li 
+        display: inline-block
+
+        &.rslides_here a
+            background: #fff
+
+        a
+            border: 2px solid #fff
+            display: block
+            width: 12px
+            height: 12px
+            font-size: 0px
+            margin: 0 10px
+            +border-radius(100%)
+            transition: all .2s
+
+            &:hover
+                background: #fff
