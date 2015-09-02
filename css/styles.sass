@@ -1,0 +1,55 @@
+// Variables
+
+$green: #7FC356
+
+
+// Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900)
+
+
+// Mixins 
+
+=border-radius($radius)
+	-moz-border-radius: 	$radius
+	-webkit-border-radius: 	$radius
+	-ms-border-radius:     	$radius
+	border-radius: 			$radius
+
+=border-box
+	box-sizing: border-box
+
+
+// Container
+
+*
+	font-family: "Open Sans"
+
+.container
+	color: #333
+
+.section
+
+
+// Headers
+
+h1
+	font-size: 30px
+	font-weight: 600
+
+// Navigation Bar
+
+.navbar
+	+border-radius(0)
+
+.navbar-default
+	// background: $green
+	// color: #fff
+	text-transform: uppercase
+	font-weight: 600
+	font-size: 13px
+
+	a
+		//color: #fff!important
+
+

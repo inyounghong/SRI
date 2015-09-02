@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+* {
+  font-family: "Open Sans"; }
+
+.container {
+  color: #333; }
+
+h1 {
+  font-size: 30px;
+  font-weight: 600; }
+
+.navbar {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0; }
+
+.navbar-default {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px; }
+
+/*# sourceMappingURL=styles.css.map */
