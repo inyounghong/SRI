@@ -1,4 +1,4 @@
-<!doctype>
+<!doctype html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -135,6 +135,28 @@
 			<h1>Projects</h1>
 			<p class="big">Cornell's SRI-Rice Center has a broad impact across the world.</p>
 
+			<div class="row">
+				<div class="col-sm-4 c">
+					<img src="img/icons/research.png" class="project_img">
+					<h3>Research &amp; Resources</h3>
+					<p>
+					</p>
+				</div>
+
+				<div class="col-sm-4 c">
+					<img src="img/icons/earth.png" class="project_img">
+					<h3>Regional Initiatives</h3>
+					<p>
+					</p>
+				</div>
+
+				<div class="col-sm-4 c">
+					<img src="img/icons/research.png" class="project_img">
+					<h3>Resources</h3>
+					<p>
+					</p>
+				</div>
+			</div>
 			<br><br>
 		</div>
 	</div>
