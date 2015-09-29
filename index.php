@@ -72,86 +72,126 @@
 
 		<div class="section">
 			<h1>About SRI</h1>
+			<p class="big">The <b>System of Rice Intensification (SRI)</b> is a methodology that allows farmers to grow more more rice by using smarter management of plants, water, soil, and nutrients. Through small modifications to the traditional methodology of growing rice, farmers can significantly increase their production, alleviating hunger while also reducing costs, decreasing water usage, and being friendlier to the environment.</p>
 
+			<p>[SRI plants are transplanted when they are very young with only two leaves. The plant seedlings are given plenty of space to grow, with a distance of at least 25cm between each plant. Fields are watered but not flooded.]</p>
+
+			<p>[Illustation of SRI rice]</p>
 			<br><br>
 		</div>
 
-		<div class="section">
+	</div>
+
+	<div class="g">
+		<div class="container">
 			<h1>Global Impact</h1>
 
-			<br><br>
-		</div>
-
-		<div class="section">
-			<h1>About Us</h1>
-			<p class="big">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="people_wrap">
-						<div class="people_img"><img src="./img/people_erika.png"></div>
-						<div class="people_name">Erika Styger</div>
-						<div class="people_job">Director of Programs</div>
-						<div class="people_description">She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
-					</div>
+			<div class="row" id="impact">
+				<div class="col-sm-4 c">
+					<img src="img/icons/bowl.png" class="sm-icon">
+					<h3>Fights Hunger</h3>
+					<p>SRI rice fights hunger by increasing farmer's crop yields. Because SRI rice grow to be sturdier, they have a higher resistance to wind, drought, pests, and disease. SRI produces increases in grain yields 50-100% or more than traditional rice growing methods.</p>
 				</div>
 
-				<div class="col-sm-3">
-					<div class="people_wrap">
-						<div class="people_img"><img src="./img/people_lucy.png"></div>
-						<div class="people_name">Lucy Fisher</div>
-						<div class="people_job">Director of Communications</div>
-						<div class="people_description">Oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI websiteand social networking sites.</div>
-					</div>
+				<div class="col-sm-4 c">
+					<img src="img/icons/money.png" class="sm-icon">
+					<h3>Reduces Costs</h3>
+					<p>The SRI methodology reduces costs by reducing the requirements for seeds, water, chemical fertilizer, pesticides, and often labor. SRI reduces seed use by 80-95% and water by 30-50%. SRI reduces cost up to 20% less per hectare than traditional rice growing methods. </p>
 				</div>
 
-				
-
-				<div class="col-sm-3">
-					<div class="people_wrap">
-						<div class="people_img"><img src="./img/people_devon.png"></div>
-						<div class="people_name">Devon Jenkins</div>
-						<div class="people_job">Technical Specialist</div>
-						<div class="people_description">assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div>
-					</div>
-				</div>
-
-				<div class="col-sm-3">
-					<div class="people_wrap">
-						<div class="people_img"><img src="./img/people_norman.png"></div>
-						<div class="people_name">Norman Uphoff </div>
-						<div class="people_job">Senior Advisor</div>
-						<div class="people_description">He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000...</div>
-					</div>
+				<div class="col-sm-4 c">
+					<img src="img/icons/environment1.png" class="sm-icon">
+					<h3>Helps the Environment</h3>
+					<p>Growing rice with SRI is better for the environment. Up to 100% reduction in agrochemical use.
+					</p>
 				</div>
 			</div>
 
-			<a href="./aboutus.php" class="button">More</a>
+			<br><br>
 
+			<p class="big">Since 1997, SRI has spread to over 55 countries.</p>
+
+			<div class="c">
+				<img src="img/map.png" width="800">
+				<br>[some nice, possibly interactive map + timeline]
+			</div>
 			<br><br>
 		</div>
+	</div>
 
-		<div class="section">
+	<div class="container">
+		<h1>About Us</h1>
+		<p class="big">Our mission is to reduce hunger and extreme poverty by improving productivity of rice and other crops based on environment-friendly agricultural practices that preserve and improve the natural resource base and help to better withstand changing climate conditions. </p>
+
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="people_wrap">
+					<div class="people_img"><img src="./img/people_erika.png"></div>
+					<div class="people_name">Erika Styger</div>
+					<div class="people_job">Director of Programs</div>
+					<div class="people_description">She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="people_wrap">
+					<div class="people_img"><img src="./img/people_lucy.png"></div>
+					<div class="people_name">Lucy Fisher</div>
+					<div class="people_job">Director of Communications</div>
+					<div class="people_description">Oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI websiteand social networking sites.</div>
+				</div>
+			</div>
+
+			
+
+			<div class="col-sm-3">
+				<div class="people_wrap">
+					<div class="people_img"><img src="./img/people_devon.png"></div>
+					<div class="people_name">Devon Jenkins</div>
+					<div class="people_job">Technical Specialist</div>
+					<div class="people_description">assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="people_wrap">
+					<div class="people_img"><img src="./img/people_norman.png"></div>
+					<div class="people_name">Norman Uphoff </div>
+					<div class="people_job">Senior Advisor</div>
+					<div class="people_description">He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000...</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="button-wrap">
+			<a href="./aboutus.php" class="button">More</a>
+		</div>
+
+		<br><br>
+	</div>
+
+	<div class="g">
+		<div class="container">
 			<h1>Projects</h1>
 			<p class="big">Cornell's SRI-Rice Center has a broad impact across the world.</p>
 
 			<div class="row">
 				<div class="col-sm-4 c">
-					<img src="img/icons/research.png" class="project_img">
+					<img src="img/icons/research.png" class="s-icon">
 					<h3>Research &amp; Resources</h3>
 					<p>
 					</p>
 				</div>
 
 				<div class="col-sm-4 c">
-					<img src="img/icons/earth.png" class="project_img">
+					<img src="img/icons/earth.png" class="s-icon">
 					<h3>Regional Initiatives</h3>
 					<p>
 					</p>
 				</div>
 
 				<div class="col-sm-4 c">
-					<img src="img/icons/research.png" class="project_img">
+					<img src="img/icons/research.png" class="s-icon">
 					<h3>Resources</h3>
 					<p>
 					</p>
@@ -160,6 +200,13 @@
 			<br><br>
 		</div>
 	</div>
+
+	<div class="container">
+		<h1>Testimonials</h1>
+
+	</div>
+
+	<?php include './includes/footer.html' ?>
 
 </body>
 </html>

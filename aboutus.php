@@ -22,11 +22,21 @@
 
 	<?php include './includes/navigation.html' ?>
 	
-	<div class="container">
+	<div class="container main">
 
 		<h1>About Us</h1>
 
+        <p>[About SRI organization]</p><br>
+
+        <p>[Vision + Mission + Story]</p><br>
+
+        <p>[Team Members]</p><br>
+
+        <p>[How to contribute/ social media (embedding twitter)]</p><br>
+
 	</div>
+
+    <?php include './includes/footer.html' ?>
 
 </body>
 </html>

@@ -24,15 +24,12 @@
 	
 	<div class="container main">
 
-		<h1>About SRI</h1>
+		<h1>Global Impact of SRI</h1>
 
-        <p>[More detailed explanation of what SRI is]</p><br>
+        <p>[More detailed description of benefits of SRI]</p><br>
 
-        <p>[Photograph of SRI plant vs normal plant]</p><br>
+        <p>[Scientific Citations]</p><br>
 
-        <p>[More detailed description of steps]</p><br>
-
-        <p>[More detailed description of steps]</p><br>
 
 	</div>
 

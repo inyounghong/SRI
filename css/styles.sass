@@ -1,6 +1,8 @@
 // Variables
 
 $green: #7FC356
+$yellow: #FFC459
+$yellow2: rgba(255,196,89, 0.85)
 
 
 // Fonts
@@ -27,45 +29,76 @@ $green: #7FC356
 
 .container
     color: #333
-    padding-top: 100px
+    padding: 40px 0
+    font-size: 16px
+    line-height: 1.5em
+    
+    &.main
+        padding-top: 100px
+
+.g
+    background: #f8f8f8
 
 .section
     padding: 50px 0
+
+.r
+    text-align: right
 
 .c
     text-align: center
 
 p.big
-    font-family: "PT Serif"
-    font-size: 20px
+    font-size: 18px
     width: 80%
     margin: 10px auto 40px
     line-height: 1.5em
+
+p
+    margin-bottom: 0
 
 
 // Headers
 
 h1
     text-align: center
-    margin: 10px 0 30px
+    margin: 10px 0 40px
+
+h3
+
+    font-size: 22px
+    margin: 20px 0 20px
+    font-weight: bold
 
 // Button
 
+.button-wrap 
+    text-align: center
+    margin: 0 0 20px
+
 .button
-    display: block
+    display: inline-block
     background: $green
     color: #fff
+    font-size: 13px
     padding: 10px 15px
+    margin: 0 5px
     width: 100px
     text-align: center
     +border-box
     text-transform: uppercase
     font-weight: 600
-    margin: 20px auto
     +border-radius(20px)
 
     &:hover
         color: #fff
+
+.button-right
+    background: $green
+    padding: 10px 15px
+    display: inline-block
+    color: #fff
+
 
 
 // Navigation Bar
@@ -88,6 +121,7 @@ h1
         z-index: 99
         position: relative
         padding-top: 0
+        font-size: 13px
 
 
 .navbar-default
@@ -127,7 +161,7 @@ h1
     text-align: center
     border: 1px solid #eee
     padding: 30px 15px
-    height: 350px
+    height: 380px
     +border_radius(5px)
 
     .people_img
@@ -148,8 +182,64 @@ h1
         margin: 5px 0
         font-style: italic
 
-// Projects
+// Icons
 
-.project_img
+.sm-icon
+
+
+.s-icon
     opacity: .4
     max-width: 55px
+
+// Global Impact
+
+#impact
+    p
+        text-align: left
+
+
+// Projects
+
+h2.projects
+    margin: 40px 0 20px
+
+
+
+.project-box
+    border: 1px solid #ddd
+    +border_radius(5px)
+    margin-right: 20px
+    position: relative
+
+
+.project-box img
+    max-width: 100%
+
+.project-image
+    overflow: hidden
+    height: 200px
+
+.project-box 
+    p
+        padding: 20px 15px
+
+    h3
+        background: $yellow
+        color: #fff
+        margin: 0
+        padding: 15px 20px
+        display: inline-block
+        font-size: 17px
+        font-weight: 600
+        position: absolute
+        top: 153px
+
+
+// Footer
+
+#footer
+    background: #555
+
+    .container
+        color: #fff!important
+

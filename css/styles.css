@@ -5,42 +5,70 @@
 
 .container {
   color: #333;
-  padding-top: 100px; }
+  padding: 40px 0;
+  font-size: 16px;
+  line-height: 1.5em; }
+  .container.main {
+    padding-top: 100px; }
+
+.g {
+  background: #f8f8f8; }
 
 .section {
   padding: 50px 0; }
+
+.r {
+  text-align: right; }
 
 .c {
   text-align: center; }
 
 p.big {
-  font-family: "PT Serif";
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
   margin: 10px auto 40px;
   line-height: 1.5em; }
 
+p {
+  margin-bottom: 0; }
+
 h1 {
   text-align: center;
-  margin: 10px 0 30px; }
+  margin: 10px 0 40px; }
+
+h3 {
+  font-size: 22px;
+  margin: 20px 0 20px;
+  font-weight: bold; }
+
+.button-wrap {
+  text-align: center;
+  margin: 0 0 20px; }
 
 .button {
-  display: block;
+  display: inline-block;
   background: #7FC356;
   color: #fff;
+  font-size: 13px;
   padding: 10px 15px;
+  margin: 0 5px;
   width: 100px;
   text-align: center;
   box-sizing: border-box;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 20px auto;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   -ms-border-radius: 20px;
   border-radius: 20px; }
   .button:hover {
     color: #fff; }
+
+.button-right {
+  background: #7FC356;
+  padding: 10px 15px;
+  display: inline-block;
+  color: #fff; }
 
 .navbar {
   -moz-border-radius: 0;
@@ -60,7 +88,8 @@ h1 {
   .navbar .container {
     z-index: 99;
     position: relative;
-    padding-top: 0; }
+    padding-top: 0;
+    font-size: 13px; }
 
 .navbar-default {
   background: none;
@@ -89,7 +118,7 @@ h1 {
   text-align: center;
   border: 1px solid #eee;
   padding: 30px 15px;
-  height: 350px;
+  height: 380px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -112,8 +141,48 @@ h1 {
     margin: 5px 0;
     font-style: italic; }
 
-.project_img {
+.s-icon {
   opacity: 0.4;
   max-width: 55px; }
+
+#impact p {
+  text-align: left; }
+
+h2.projects {
+  margin: 40px 0 20px; }
+
+.project-box {
+  border: 1px solid #ddd;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  position: relative; }
+
+.project-box img {
+  max-width: 100%; }
+
+.project-image {
+  overflow: hidden;
+  height: 200px; }
+
+.project-box p {
+  padding: 20px 15px; }
+.project-box h3 {
+  background: #FFC459;
+  color: #fff;
+  margin: 0;
+  padding: 15px 20px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  top: 153px; }
+
+#footer {
+  background: #555; }
+  #footer .container {
+    color: #fff !important; }
 
 /*# sourceMappingURL=styles.css.map */
