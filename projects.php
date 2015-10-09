@@ -27,27 +27,7 @@
 		<h1>Projects</h1>
 
         <h2 class="projects">Research &amp; Resources</h2 class="projects">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="project-box">
-                    <div class="project-image">
-                        <img src="http://betterufoundation.org/wp-content/uploads/2013/08/header3.jpg" height="200">
-                    </div>
-                    <h3>Improving and Scaling up of SRI in West Africa</h3>
-                    <p>desc</p>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="project-box">
-                    <div class="project-image">
-                        <img src="img/projects/example.jpg" height="400">
-                    </div>
-                    <h3>Peace Corps Collaboration with SRI-Rice</h3>
-                    <p>desc</p>
-                </div>
-            </div>
-        </div>
+        
 
     </div>
     <div class="g">

@@ -29,6 +29,15 @@
     
 </head>
 <body>
+	<!-- Facebook script -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1771120603114658";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<?php include './includes/navigation.html' ?>
 
@@ -69,53 +78,63 @@
 </div>
 	
 	<div class="container">
+		<br>
+		<h1>What is SRI?</h1>
+		<p class="big">The <b>System of Rice Intensification (SRI)</b> is a methodology that allows farmers to grow more more rice by using smarter management of plants, water, soil, and nutrients. Through small modifications to the traditional methodology of growing rice, farmers can significantly increase their production, alleviating hunger while also reducing costs, decreasing water usage, and being friendlier to the environment.</p>
 
-		<div class="section">
-			<h1>About SRI</h1>
-			<p class="big">The <b>System of Rice Intensification (SRI)</b> is a methodology that allows farmers to grow more more rice by using smarter management of plants, water, soil, and nutrients. Through small modifications to the traditional methodology of growing rice, farmers can significantly increase their production, alleviating hunger while also reducing costs, decreasing water usage, and being friendlier to the environment.</p>
+		<img src="img/illustration_normal2.png" width="150" style="display: inline-block;margin-right: 100px">
 
-			<p>[SRI plants are transplanted when they are very young with only two leaves. The plant seedlings are given plenty of space to grow, with a distance of at least 25cm between each plant. Fields are watered but not flooded.]</p>
-
-			<p>[Illustation of SRI rice]</p>
-			<br><br>
-		</div>
+			<img src="img/illustration_sri.png" width="150">
+	
 
 	</div>
 
-	<div class="g">
-		<div class="container">
-			<h1>Global Impact</h1>
+	<div class="colored black" id="sri-plants">
+		<Br><br>
+		<p class="c">
+			<img src="img/illustration_normal_w.png" width="150" style="margin-right: 100px">
+			<img src="img/illustration_sri_w.png" width="150">
+			<img src="img/illustration_normal2.png" width="150" style="display: inline-block;margin-right: 100px">
 
-			<div class="row" id="impact">
-				<div class="col-sm-4 c">
-					<img src="img/icons/bowl.png" class="sm-icon">
-					<h3>Fights Hunger</h3>
-					<p>SRI rice fights hunger by increasing farmer's crop yields. Because SRI rice grow to be sturdier, they have a higher resistance to wind, drought, pests, and disease. SRI produces increases in grain yields 50-100% or more than traditional rice growing methods.</p>
-				</div>
+			<img src="img/illustration_sri.png" width="150">
+			<Br><br><Br>
+		</p>
+	</div>
 
-				<div class="col-sm-4 c">
-					<img src="img/icons/money.png" class="sm-icon">
-					<h3>Reduces Costs</h3>
-					<p>The SRI methodology reduces costs by reducing the requirements for seeds, water, chemical fertilizer, pesticides, and often labor. SRI reduces seed use by 80-95% and water by 30-50%. SRI reduces cost up to 20% less per hectare than traditional rice growing methods. </p>
-				</div>
 
-				<div class="col-sm-4 c">
-					<img src="img/icons/environment1.png" class="sm-icon">
-					<h3>Helps the Environment</h3>
-					<p>Growing rice with SRI is better for the environment. Up to 100% reduction in agrochemical use.
-					</p>
-				</div>
+	<div class="container">
+		<h1>Global Impact</h1>
+
+		<div class="row" id="impact">
+			<div class="col-sm-4 c">
+				<img src="img/icons/bowl.png" class="sm-icon">
+				<h3>Fights Hunger</h3>
+				<p>SRI rice fights hunger by increasing farmer's crop yields. Because SRI rice grow to be sturdier, they have a higher resistance to wind, drought, pests, and disease. SRI produces increases in grain yields 50-100% or more than traditional rice growing methods.</p>
 			</div>
 
-			<br><br>
+			<div class="col-sm-4 c">
+				<img src="img/icons/money.png" class="sm-icon">
+				<h3>Reduces Costs</h3>
+				<p>The SRI methodology reduces costs by reducing the requirements for seeds, water, chemical fertilizer, pesticides, and often labor. SRI reduces seed use by 80-95% and water by 30-50%. SRI reduces cost up to 20% less per hectare than traditional rice growing methods. </p>
+			</div>
 
+			<div class="col-sm-4 c">
+				<img src="img/icons/environment1.png" class="sm-icon">
+				<h3>Helps the Environment</h3>
+				<p>Growing rice with SRI is better for the environment. Up to 100% reduction in agrochemical use. Decreases emissions of greenhouse gases.
+				</p>
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<div class="colored black" id="field">
+		<div class="container">
 			<p class="big">Since 1997, SRI has spread to over 55 countries.</p>
 
 			<div class="c">
-				<img src="img/map.png" width="800">
-				<br>[some nice, possibly interactive map + timeline]
+				<img src="img/backgrounds/world-map.png" width="700">
 			</div>
-			<br><br>
 		</div>
 	</div>
 
@@ -162,7 +181,7 @@
 				</div>
 			</div>
 		</div>
-
+		<br>
 		<div class="button-wrap">
 			<a href="./aboutus.php" class="button">More</a>
 		</div>
@@ -203,6 +222,8 @@
 
 	<div class="container">
 		<h1>Testimonials</h1>
+
+		<div class="fb-page" data-href="https://www.facebook.com/SRIRice" data-width="300" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SRIRice"><a href="https://www.facebook.com/SRIRice">SRI-Rice (SRI International Network and Resources Center)</a></blockquote></div></div>
 
 	</div>
 

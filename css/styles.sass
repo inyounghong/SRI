@@ -30,14 +30,50 @@ $yellow2: rgba(255,196,89, 0.85)
 .container
     color: #333
     padding: 40px 0
-    font-size: 16px
+    font-size: 15px
     line-height: 1.5em
     
     &.main
         padding-top: 100px
 
-.g
+.col-sm-4
+    padding: 0 25px
+
+.colored
     background: #f8f8f8
+    position: relative
+    overflow: hidden
+    z-index: 10
+
+    &.black
+        background: #444
+
+        *
+            color: #fff
+
+.colored::before
+    content: ''
+    opacity: .15
+    display: block
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: -1
+    background-size: cover
+
+// Background sections
+#sri-plants
+    background: #31200A
+
+#sri-plants::before
+    background: url('../img/backgrounds/sri-plants.jpg')
+
+#field
+    background: #AD7510
+
+#field::before
+    background: url('../img/backgrounds/field.jpg')
+
 
 .section
     padding: 50px 0
@@ -50,7 +86,7 @@ $yellow2: rgba(255,196,89, 0.85)
 
 p.big
     font-size: 18px
-    width: 80%
+    width: 70%
     margin: 10px auto 40px
     line-height: 1.5em
 
@@ -139,7 +175,7 @@ h3
 .banner
 
     li
-        max-height: 450px
+        max-height: 400px
         overflow: hidden
     img
         width: 100%
@@ -184,8 +220,6 @@ h3
 
 // Icons
 
-.sm-icon
-
 
 .s-icon
     opacity: .4
@@ -210,6 +244,8 @@ h2.projects
     +border_radius(5px)
     margin-right: 20px
     position: relative
+    font-size: 14px
+    background: #fff
 
 
 .project-box img
