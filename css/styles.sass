@@ -3,12 +3,15 @@
 $green: #7FC356
 $yellow: #FFC459
 $yellow2: rgba(255,196,89, 0.85)
+$orange: #E89E41
 
 
 // Fonts
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900)
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)
+@import url(https://fonts.googleapis.com/css?family=Homenaje)
 
 // Mixins 
 
@@ -24,7 +27,9 @@ $yellow2: rgba(255,196,89, 0.85)
 
 // Container
 
-*
+
+.page
+    margin-top: 54px
     font-family: "Open Sans"
 
 .container
@@ -35,6 +40,48 @@ $yellow2: rgba(255,196,89, 0.85)
     
     &.main
         padding-top: 100px
+
+.section
+    &.g
+        background: $green
+
+    &.o
+        background: $orange
+
+    *
+        color: #fff
+
+    &:after
+        content: ""
+        display: block
+        left: 50%
+        margin-left: -20px
+        position: absolute
+        width: 0
+        height: 0
+        border-left: 20px solid transparent
+        border-right: 20px solid transparent
+        border-top: 20px solid $green
+
+.message 
+    margin-bottom: 40px
+    *
+        color: rgba(255,255,255,0.9)
+
+    b
+        color: #fff
+
+    
+
+.r90
+    width: 90%
+    margin: 0 auto
+
+.row.padding
+    .col-sm-6
+        padding: 0 30px
+
+
 
 .col-sm-4
     padding: 0 25px
@@ -74,15 +121,14 @@ $yellow2: rgba(255,196,89, 0.85)
 #field::before
     background: url('../img/backgrounds/field.jpg')
 
-
-.section
-    padding: 50px 0
-
 .r
     text-align: right
 
 .c
     text-align: center
+
+.l
+    text-align: left!important
 
 p.big
     font-size: 18px
@@ -90,9 +136,33 @@ p.big
     margin: 10px auto 40px
     line-height: 1.5em
 
-p
-    margin-bottom: 0
+p.main
+    font-size: 20px
+    width: 70%
+    margin: 10px auto 40px
+    line-height: 1.6em
 
+
+p
+    margin: 10px 0
+    font-size: 17px
+    line-height: 1.5em
+    font-weight: 300
+    color: #000
+
+    b
+        font-weight: 400
+
+p.med
+    width: 70%
+    margin: 10px auto 20px
+    line-height: 1.5em
+
+
+// Rows
+
+.row.sm p
+    font-size: 15px
 
 // Headers
 
@@ -100,11 +170,24 @@ h1
     text-align: center
     margin: 10px 0 40px
 
-h3
 
-    font-size: 22px
-    margin: 20px 0 20px
+
+h4
+    font-size: 15px
     font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    color: #999
+    margin: 20px 0 25px
+
+h3
+    font-family: "Homenaje"
+    margin: 10px 0
+    font-weight: 400
+    font-size: 32px
+    text-align: center
+    margin: 20px 0 15px
+    line-height: 1.3em
 
 // Button
 
@@ -145,19 +228,35 @@ h3
     z-index: 99
     width: 100%
     border: none
+    top: 0
 
     .nav-background
         width: 100%
         z-index: 98
         position: absolute
-        height: 55px
-        background: $green
+        height: 54px
+        background: $orange
 
     .container
         z-index: 99
         position: relative
         padding-top: 0
         font-size: 13px
+
+    li
+        padding: 2px 0
+
+    li:hover
+        background: $yellow
+
+
+    a
+        color: #fff!important
+
+em
+    font-style: normal
+    font-weight: 600
+    
 
 
 .navbar-default
@@ -190,6 +289,28 @@ h3
         background: $green
         padding: 30px
 
+
+// Other banners
+
+.top-banner
+    height: 400px
+    background-size: cover!important
+
+.img-banner
+    height: 350px
+    background-size: cover!important
+
+#about-us
+    background: url('../img/group.jpg') no-repeat
+    
+#vision
+    background: url('../img/about.jpg') no-repeat
+
+#activities
+    background: url('../img/backgrounds/about2.jpg') no-repeat
+
+#benefits 
+    background: url('../img/group.jpg') no-repeat
 
 // About Us People
 

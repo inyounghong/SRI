@@ -82,9 +82,12 @@
 		<h1>What is SRI?</h1>
 		<p class="big">The <b>System of Rice Intensification (SRI)</b> is a methodology that allows farmers to grow more more rice by using smarter management of plants, water, soil, and nutrients. Through small modifications to the traditional methodology of growing rice, farmers can significantly increase their production, alleviating hunger while also reducing costs, decreasing water usage, and being friendlier to the environment.</p>
 
-		<img src="img/illustration_normal2.png" width="150" style="display: inline-block;margin-right: 100px">
+		<div class="c">
+		<img src="img/illustration_normal.png" width="150" style="display: inline-block;margin-right: 100px">
 
 			<img src="img/illustration_sri.png" width="150">
+		</div>
+			
 	
 
 	</div>
@@ -94,16 +97,14 @@
 		<p class="c">
 			<img src="img/illustration_normal_w.png" width="150" style="margin-right: 100px">
 			<img src="img/illustration_sri_w.png" width="150">
-			<img src="img/illustration_normal2.png" width="150" style="display: inline-block;margin-right: 100px">
-
-			<img src="img/illustration_sri.png" width="150">
 			<Br><br><Br>
 		</p>
 	</div>
 
 
 	<div class="container">
-		<h1>Global Impact</h1>
+		<h4>Global Impact</h4>
+		<br>
 
 		<div class="row" id="impact">
 			<div class="col-sm-4 c">
@@ -114,7 +115,7 @@
 
 			<div class="col-sm-4 c">
 				<img src="img/icons/money.png" class="sm-icon">
-				<h3>Reduces Costs</h3>
+				<h3>Benefits Poor Farmers</h3>
 				<p>The SRI methodology reduces costs by reducing the requirements for seeds, water, chemical fertilizer, pesticides, and often labor. SRI reduces seed use by 80-95% and water by 30-50%. SRI reduces cost up to 20% less per hectare than traditional rice growing methods. </p>
 			</div>
 
