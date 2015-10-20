@@ -31,7 +31,7 @@
 
     		<h4>Global Impact of SRI</h4>
 
-            <p class="main">SRI farming methods allow farmers to produce <em>more rice</em> to eat or sell at <em>less of an expense</em>, improving both their <em>food security and income</em>, while further benefiting their health and the <em>environment</em> by using <em>less water and agrochemicals</em>.</p>
+            <p class="main">SRI farming methods allow farmers to produce more rice to eat or sell at less of an expense, improving both their food security and income, while further benefiting their health and the environment by using less water and agrochemicals.</p>
 
     	</div>
 
@@ -53,17 +53,17 @@
                 <div class="col-sm-3">
                     <img src="img/icons/grain.png">
                     <h3>Fewer Seeds</h3>
-                    <p>With SRI farmers, can also produce greater yields with far fewer plants, reducing seed use by <b>80 to 95%</b>.<p>
+                    <p>With SRI farmers, can also produce greater yields with far fewer plants, <b>reducing seed use by 80 to 95%</b>.<p>
                 </div>
                 <div class="col-sm-3">
                     <img src="img/icons/water.png">
                     <h3>Less Water</h3>
-                    <p>Fields do not need to be continuously flooded, resulting in <b>25 to 50%</b> less water being used.<p>
+                    <p>Fields do not need to be continuously flooded, resulting in <b>25 to 50% less water</b> being used.<p>
                 </div>
                 <div class="col-sm-3">
                     <img src="img/icons/fertilizer.png">
                     <h3>Fewer Agrochemicals</h3>
-                    <p>Up to <b>100%</b> reduction in agrochemical use, such as synthetic fertilizers, herbicides, and pesticides.<p>
+                    <p>Up to <b>100% reduction in agrochemical use</b>, such as synthetic fertilizers, herbicides, and pesticides.<p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,64 @@
         </div>
 
         <div class="container">
+
+            <div class="row c">
+                <div class="col-sm-3">
+                    <img src="img/icons/storm.png">
+                    <h3>More Resistant Plants</h3>
+                    <p>Plants are able to grow stronger and deeper roots when spaced apart, making them more <b>resistant to wind, diseases, and drought</b>, which can sometimes destory entire fields of non-SRI rice.<p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/icons/rice.png">
+                    <h3>More Rice</h3>
+                    <p>SRI rice grows taller and wider, producing larger, better grain. Rice grown with SRI can result in <b>30% more rice</b> for farmers to sell and for others to eat.<p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/icons/coin.png">
+                    <h3>Increased Incomes</h3>
+                    <p>More income for farmers. 68% increased income per hectare.<p>
+                </div>
+                <div class="col-sm-3">
+                    
+                </div>
+            </div>
         </div>
+
+        <div class="section g message">
+            <div class="container">
+                <h3>SRI is <b>environmentally friendly</b> and <b>climate smart</b></h3>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row c">
+                <div class="col-sm-3">
+                    <img src="img/icons/rice.png">
+                    <h3>Better Plants and Soil</h3>
+                    <p>Better plant health and soil due to less agrochemical use.<p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/icons/greenhouse.png">
+                    <h3>Reduces Greenhouse Gases</h3>
+                    <p>SRI enhances carbon sinks and lowers emissions of greenhouse gases that contribute to global warming.</b><p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/icons/water.png">
+                    <h3>Less Water</h3>
+                    <p>Fields do not need to be continuously flooded, resulting in <b>25 to 50% less water</b> being used.<p>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        </div>
+
+
     </div>
 
 

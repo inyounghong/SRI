@@ -44,11 +44,30 @@ $orange: #E89E41
 .section
     &.g
         background: $green
+        *
+            color: #fff!important
 
     &.o
         background: $orange
 
+    &.gr
+        background: #f8f8f8
+        border-top: 1px solid #ddd
+        *
+            color: #222
+
     *
+        color: #fff
+
+
+    
+
+.message 
+    margin-bottom: 40px
+    *
+        color: rgba(255,255,255,0.9)
+
+    b
         color: #fff
 
     &:after
@@ -62,15 +81,6 @@ $orange: #E89E41
         border-left: 20px solid transparent
         border-right: 20px solid transparent
         border-top: 20px solid $green
-
-.message 
-    margin-bottom: 40px
-    *
-        color: rgba(255,255,255,0.9)
-
-    b
-        color: #fff
-
     
 
 .r90
@@ -83,9 +93,6 @@ $orange: #E89E41
 
 
 
-.col-sm-4
-    padding: 0 25px
-
 .colored
     background: #f8f8f8
     position: relative
@@ -95,8 +102,11 @@ $orange: #E89E41
     &.black
         background: #444
 
-        *
-            color: #fff
+    *
+        color: #fff
+
+    &.green
+        background: $green
 
 .colored::before
     content: ''
@@ -121,6 +131,9 @@ $orange: #E89E41
 #field::before
     background: url('../img/backgrounds/field.jpg')
 
+
+
+
 .r
     text-align: right
 
@@ -129,6 +142,9 @@ $orange: #E89E41
 
 .l
     text-align: left!important
+
+.b
+    font-weight: 400
 
 p.big
     font-size: 18px
@@ -168,7 +184,8 @@ p.med
 
 h1
     text-align: center
-    margin: 10px 0 40px
+    margin: 10px 0 30px
+    font-family: "Homenaje"
 
 
 
@@ -177,7 +194,7 @@ h4
     font-weight: bold
     text-transform: uppercase
     text-align: center
-    color: #999
+    color: #999!important
     margin: 20px 0 25px
 
 h3
@@ -212,12 +229,12 @@ h3
     &:hover
         color: #fff
 
-.button-right
+.button-support
     background: $green
     padding: 10px 15px
     display: inline-block
     color: #fff
-
+    margin-bottom: 10px
 
 
 // Navigation Bar
@@ -252,6 +269,10 @@ h3
 
     a
         color: #fff!important
+        font-weight: 400
+
+#support
+    background: $green
 
 em
     font-style: normal
@@ -292,6 +313,17 @@ em
 
 // Other banners
 
+.side-banner
+    height: 400px
+    overflow: hidden
+    position: relative
+
+    .text-box
+        position: absolute
+        left: 50%
+        top: 0
+        padding: 30px 50px
+
 .top-banner
     height: 400px
     background-size: cover!important
@@ -299,6 +331,7 @@ em
 .img-banner
     height: 350px
     background-size: cover!important
+
 
 #about-us
     background: url('../img/group.jpg') no-repeat
@@ -310,7 +343,14 @@ em
     background: url('../img/backgrounds/about2.jpg') no-repeat
 
 #benefits 
-    background: url('../img/group.jpg') no-repeat
+    background: url('../img/backgrounds/benefits.jpg') no-repeat
+
+#comparison
+    background: url('../img/backgrounds/comparison.jpg') no-repeat
+
+#projects
+    background: url('../img/backgrounds/header.jpg') no-repeat
+
 
 // About Us People
 
@@ -355,19 +395,12 @@ em
 
 // Projects
 
-h2.projects
-    margin: 40px 0 20px
-
-
 
 .project-box
-    border: 1px solid #ddd
-    +border_radius(5px)
     margin-right: 20px
     position: relative
-    font-size: 14px
     background: #fff
-
+    margin-bottom: 20px
 
 .project-box img
     max-width: 100%
@@ -377,19 +410,87 @@ h2.projects
     height: 200px
 
 .project-box 
+    padding-bottom: 10px
     p
-        padding: 20px 15px
+        padding: 10px 25px
+        font-size: 15px
+        margin-top: 0
 
     h3
-        background: $yellow
+        margin-bottom: 0
+
+    h5
+        background: $orange
         color: #fff
         margin: 0
         padding: 15px 20px
         display: inline-block
-        font-size: 17px
+        font-size: 16px
         font-weight: 600
         position: absolute
         top: 153px
+
+// Principles list
+
+.img-list
+    margin-top: 30px
+    text-align: center
+    padding: 0
+
+    li
+        list-style-type: none
+        display: inline-block
+        padding: 20px 10px
+        width: 200px
+        text-align: center
+        font-weight: 400
+        font-size: 17px
+        background: #fff
+        color: $green
+        margin: 0 5px
+        +border-radius(5px)
+        vertical-align: top
+
+    &.black li
+        color: #222!important
+
+    img
+        margin-bottom: 10px
+
+
+
+
+// Steps and images
+
+.step
+    max-width: 450px
+    display: inline-block
+
+    img
+
+        max-width: 100%
+
+// Quotes
+
+blockquote
+    padding: 0
+    border: 0
+    color: #666
+    line-height: 1.5em
+    font-weight: 300
+
+.quote-author
+    font-size: 17px
+    text-align: right
+    margin-bottom: 10px
+    font-weight: 300
+
+.quote-details
+    font-size: 12px
+    text-align: right
+    line-height: 1.3em
+    color: #aaa
+    
 
 
 // Footer

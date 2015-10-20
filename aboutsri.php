@@ -20,21 +20,127 @@
 </head>
 <body>
 
+
 	<?php include './includes/navigation.html' ?>
-	
-	<div class="container main">
 
-		<h1>About SRI</h1>
+    <div class="page">
 
-        <p>[More detailed explanation of what SRI is]</p><br>
+<!--         <div class="side-banner">
+            <img src="img/backgrounds/comparison.jpg" width="50%" style="margin-top: -90px">
+            <div class="text-box">
+                <h1>SRI vs Conventional Rice</h1>
+            </div>
+        </div> -->
+    	
+    	<div class="container">
+    		<h4>What is SRI?</h4>
 
-        <p>[Photograph of SRI plant vs normal plant]</p><br>
+            <img src="img/backgrounds/comparison.jpg">
 
-        <p>[More detailed description of steps]</p><br>
+    	</div>
 
-        <p>[More detailed description of steps]</p><br>
+        <div class="section g message">
+            <div class="container">
+                <h4>Steps</h4>
+                <h3>SRI is based on 4 main principles:</h3>
+                <ul id="principles" class="img-list">
+                    <li>
+                        <img src="img/icons/g_leaf.png"><br>
+                        Early plant establishment
+                    </li>
+                    <li>
+                        <img src="img/icons/g_plant.png"><br>
+                        Reduced plant competition
+                    </li>
+                    <li>
+                        <img src="img/icons/g_soil.png"><br>
+                        Organically enhanced soil
+                    </li>
+                    <li><img src="img/icons/g_water.png"><br>
+                        Water and soil management
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-	</div>
+        <style>
+        #principles li{
+            color: #222;
+        }
+        </style>
+
+
+        <div class="container">
+            <h4>Steps</h4>
+            <h3>SRI is based on 4 main principles:</h3>
+            <ul id="principles" class="img-list">
+                <li>
+                    <img src="img/icons/g_leaf.png"><br>
+                    Early plant establishment
+                </li>
+                <li>
+                    <img src="img/icons/g_plant.png"><br>
+                    Reduced plant competition
+                </li>
+                <li>
+                    <img src="img/icons/g_soil.png"><br>
+                    Organically enhanced soil
+                </li>
+                <li><img src="img/icons/g_water.png"><br>
+                    Water and soil management
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="container">
+            <div class="row padding-extra c">
+                <div class="col-sm-6">
+                    <div class="step">
+                        <img src="img/seedlings.jpg">
+                    
+                        <h3>Early Plant Establishment</h3>
+                        <p class="b">Young seedlings are transplanted at a younger age of 8-12 days old rather than 21-40 days old.</p>
+                        <p>Seedlings are carefully lifted from the nursery and transported to fields in baskets or on trays for immediate transplating.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="step">
+                        <img src="img/field.jpg">
+                
+                        <h3>Reduced plant competition</h3>
+                        <p class="b">Plants are spaced widely apart with hills 20-30 cm apart rather than the usual 10-15 cm spacing.</p>
+                        <p>Instead of planting in rows or by random, plants are set out in a square or matrix pattern to facilitate moving through the field with a weeder, and to expose plants fully to the sunlight.</p>
+                    </div>
+                </div>
+
+            </div><br><br>
+
+            <div class="row padding c">
+                <div class="col-sm-6">
+                    <div class="step">
+                        <img src="img/organic.jpg">
+                    
+                        <h3>Organically enhanced soil</h3>
+                        <p class="b">Organic matter is preferred, with inorganic, synthetic fertilizers being used only when necessary.</p>
+                        <p>Organic matter (compost, manure, green manure, etc.) enhances soil structure and functioning.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="step">
+                        <img src="img/seedlings.jpg">
+                    
+                        <h3>Water and Soil Management</h3>
+                        <p class="b">Paddy fields are left non-flooded with periodic irrigation rather than continuous flooding.</p>
+                        <p>Field leveling and bundling, mulching, and organic matter applications are used to help maintain soil moisture. Flooding is prevented, particularly during the vegetative state.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 
     <?php include './includes/footer.html' ?>
 

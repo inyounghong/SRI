@@ -29,15 +29,7 @@
     
 </head>
 <body>
-	<!-- Facebook script -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1771120603114658";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+
 
 	<?php include './includes/navigation.html' ?>
 
@@ -224,8 +216,27 @@
 	<div class="container">
 		<h1>Testimonials</h1>
 
-		<div class="fb-page" data-href="https://www.facebook.com/SRIRice" data-width="300" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SRIRice"><a href="https://www.facebook.com/SRIRice">SRI-Rice (SRI International Network and Resources Center)</a></blockquote></div></div>
+		<div class="row">
+			<div class="col-sm-4">
+				<blockquote>"In rice, they're using a system called the System of Rice Intensification, which allows them to use less water, less fertilizer, more safe inputs. And they're seeing a big increase, doubling or tripling of yields, and a 75 percent increase in farm incomes because of that program, which has now reached almost 10,000 farm households, and we believe will reach 125,000 over time."</blockquote>
 
+				<div class="quote-author">Neal Conan, NPR</div>
+				<div class="quote-details">Interview on Jan. 17, 2012</div>
+			</div>
+			<div class="col-sm-4">
+				<blockquote>"On Thursday, September 15, I had the opportunity to meet Emyl Mil, a rice farmer in Haiti…he was excited about the use of a new, innovative approach called System of Rice Intensification. This new technique has significantly increased rice yields using fewer seeds and less water and fertilizer. Mr. Mil has even shared the technique with fellow farmers, who are seeing the same results."</blockquote>
+
+				<div class="quote-author">Dr. Rajiv Shah, former Administrator of USAID</div>
+				<div class="quote-details">Posted on USAID Impact Blog, Sept. 19, 2011</div>
+			</div>
+			<div class="col-sm-4">
+				<blockquote>"Growing more with less – for many, this sounds unreal, but SRI applications from more and more places are showing that this is indeed possible."</blockquote>
+
+				<div class="quote-author">World Bank Institute, Washington, DC</div>
+				<div class="quote-details">From a training module on SRI produced by the WBI: <br><u>SRI: Achieving More with Less – a New Way of Rice Cultivation</u></div>
+			</div>
+		</div>
+		
 	</div>
 
 	<?php include './includes/footer.html' ?>
