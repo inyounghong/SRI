@@ -33,17 +33,23 @@
         </div> -->
     	
     	<div class="container">
-    		<h4>What is SRI?</h4>
-
-            <img src="img/backgrounds/comparison.jpg">
+            <div class="row">
+                <div class="col-sm-7">
+                    <img src="img/backgrounds/comparison.jpg">
+                </div>
+                <div class="col-sm-5">
+                    <h4>What is SRI?</h4>
+                    <p>Using SRI methods allows farmers to grow larger rice plants and thus increase their yields. In the photo, a farmer compares two rice plants of the same species. The left plant, which was grown with SRI, is significantly larger while the plant on the right, which was grown with traditional methods.</p>
+                </div>
+            </div>
 
     	</div>
 
-        <div class="section g message">
+        <div class="section t message">
             <div class="container">
                 <h4>Steps</h4>
                 <h3>SRI is based on 4 main principles:</h3>
-                <ul id="principles" class="img-list">
+                <ul id="principles" class="img-list black">
                     <li>
                         <img src="img/icons/g_leaf.png"><br>
                         Early plant establishment
@@ -63,35 +69,6 @@
             </div>
         </div>
 
-        <style>
-        #principles li{
-            color: #222;
-        }
-        </style>
-
-
-        <div class="container">
-            <h4>Steps</h4>
-            <h3>SRI is based on 4 main principles:</h3>
-            <ul id="principles" class="img-list">
-                <li>
-                    <img src="img/icons/g_leaf.png"><br>
-                    Early plant establishment
-                </li>
-                <li>
-                    <img src="img/icons/g_plant.png"><br>
-                    Reduced plant competition
-                </li>
-                <li>
-                    <img src="img/icons/g_soil.png"><br>
-                    Organically enhanced soil
-                </li>
-                <li><img src="img/icons/g_water.png"><br>
-                    Water and soil management
-                </li>
-            </ul>
-
-        </div>
 
         <div class="container">
             <div class="row padding-extra c">
@@ -106,7 +83,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="step">
-                        <img src="img/field.jpg">
+                        <img src="img/reduced_competition.jpg">
                 
                         <h3>Reduced plant competition</h3>
                         <p class="b">Plants are spaced widely apart with hills 20-30 cm apart rather than the usual 10-15 cm spacing.</p>
@@ -128,7 +105,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="step">
-                        <img src="img/seedlings.jpg">
+                        <img src="img/field.jpg">
                     
                         <h3>Water and Soil Management</h3>
                         <p class="b">Paddy fields are left non-flooded with periodic irrigation rather than continuous flooding.</p>

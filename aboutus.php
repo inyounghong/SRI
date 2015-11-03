@@ -51,7 +51,7 @@
 
         <div class="img-banner" id="vision"></div>
 
-        <div class="section g">
+        <div class="section t message">
             <div class="container">
                 <div class="row r90 padding">
                     <div class="col-sm-6 c">
@@ -105,12 +105,12 @@
             
         </div>
 
-        <div class="container">
+<!--         <div class="container">
             <h4>Connect with Us</h4>
             <div class="fb-page" data-href="https://www.facebook.com/SRIRice" data-width="300" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SRIRice"><a href="https://www.facebook.com/SRIRice">SRI-Rice (SRI International Network and Resources Center)</a></blockquote></div></div>
 
         </div>
-
+ -->
     </div>
 
 

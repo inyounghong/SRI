@@ -4,13 +4,13 @@ $green: #7FC356
 $yellow: #FFC459
 $yellow2: rgba(255,196,89, 0.85)
 $orange: #E89E41
-
+$teal: #1DA7A7
 
 // Fonts
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900)
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic)
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,300,600,700)
 @import url(https://fonts.googleapis.com/css?family=Homenaje)
 
 // Mixins 
@@ -34,7 +34,7 @@ $orange: #E89E41
 
 .container
     color: #333
-    padding: 40px 0
+    padding: 50px 0
     font-size: 15px
     line-height: 1.5em
     
@@ -47,6 +47,15 @@ $orange: #E89E41
         *
             color: #fff!important
 
+        li
+            color: #222!important
+    &.t
+        background: $teal
+        *
+            color: #fff!important
+
+        li
+            color: #222!important
     &.o
         background: $orange
 
@@ -82,6 +91,10 @@ $orange: #E89E41
         border-right: 20px solid transparent
         border-top: 20px solid $green
     
+    &.t:after
+        border-top: 20px solid $teal
+    &.o:after
+        border-top: 20px solid $orange
 
 .r90
     width: 90%
@@ -91,22 +104,40 @@ $orange: #E89E41
     .col-sm-6
         padding: 0 30px
 
+.row
+    img
+        max-width: 100%
 
+.col-sm-4, .col-sm-3
+    p
+        font-size: 16px
 
 .colored
     background: #f8f8f8
     position: relative
     overflow: hidden
     z-index: 10
-
+    &.orange
+        background: $orange
     &.black
         background: #444
+
+    &.teal
+        background: $teal
 
     *
         color: #fff
 
     &.green
         background: $green
+
+    .container
+        padding: 40px 0 20px
+
+    h4
+        color: #fff!important
+        font-weight: 500
+        margin-bottom: 40px
 
 .colored::before
     content: ''
@@ -147,7 +178,7 @@ $orange: #E89E41
     font-weight: 400
 
 p.big
-    font-size: 18px
+    font-size: 20px
     width: 70%
     margin: 10px auto 40px
     line-height: 1.5em
@@ -162,7 +193,7 @@ p.main
 p
     margin: 10px 0
     font-size: 17px
-    line-height: 1.5em
+    line-height: 1.6em
     font-weight: 300
     color: #000
 
@@ -175,10 +206,33 @@ p.med
     line-height: 1.5em
 
 
+
 // Rows
 
 .row.sm p
     font-size: 15px
+
+.floating-text
+    width: 60%
+    display: inline-block
+    vertical-align: top
+    +border-box
+
+    &.float-left
+        padding-right: 60px
+
+    &.float-right
+        padding-left: 60px
+
+.floating-image
+    width: 39%
+    display: inline-block
+    vertical-align: top
+    +border-box
+    padding-top: 15px
+
+    img
+        max-width: 100%
 
 // Headers
 
@@ -186,7 +240,7 @@ h1
     text-align: center
     margin: 10px 0 30px
     font-family: "Homenaje"
-
+    font-size: 40px
 
 
 h4
@@ -271,6 +325,11 @@ h3
         color: #fff!important
         font-weight: 400
 
+    .navbar-brand
+        img
+            position: relative
+            top: -2px
+
 #support
     background: $green
 
@@ -289,26 +348,77 @@ em
     a
         color: #fff
 
+// Image background banner
+
+.info-banner
+    max-height: 500px
+    overflow: hidden
+    position: relative
+    background: #000
+    *
+        color: #fff
+
+    h4
+        color: #fff!important
+
+    img#bg
+        width: 100%
+        position: absolute
+        opacity: 0.4
+
+    .banner-text
+        z-index: 99
+        position: relative
+
+    
+
+
+// Quote banner
+
+.text-banner
+    background: $green
+    font-family: "Homenaje"
+    
+    .container
+        max-width: 1000px
+        margin: auto
+
+    .banner-main
+        font-size: 34px
+        line-height: 1.3em
+        padding-top: 20px
+
+    .banner-small
+        text-align: right
+        font-size: 22px
+        margin-top: 10px
+
+    *
+        color: #fff
+
 
 // Slider
 
 .banner
+    max-height: 500px
+    overflow: hidden
+    position: relative
+    background: #000
 
-    li
-        max-height: 400px
-        overflow: hidden
     img
         width: 100%
+        opacity: 0.6
 
     .caption
         position: absolute
         top: 300px
-        width: 400px
-        margin: 0 auto
-        color: #fff
+        width: 100%
         text-align: center
-        background: $green
-        padding: 30px
+        color: #fff
+        display: inline-block
+        font-size: 48px
+        font-weight: 200
+        font-family: "Homenaje"
 
 
 // Other banners
@@ -329,9 +439,13 @@ em
     background-size: cover!important
 
 .img-banner
-    height: 350px
+    height: 500px
     background-size: cover!important
+    *
+        color: #fff
 
+#problem
+    background: url('../img/problem.jpg') no-repeat
 
 #about-us
     background: url('../img/group.jpg') no-repeat
@@ -356,10 +470,7 @@ em
 
 .people_wrap
     text-align: center
-    border: 1px solid #eee
     padding: 30px 15px
-    height: 380px
-    +border_radius(5px)
 
     .people_img
         width: 100px
@@ -403,11 +514,14 @@ em
     margin-bottom: 20px
 
 .project-box img
-    max-width: 100%
+    max-width: none
+    height: auto
+    min-width: 100%
 
 .project-image
     overflow: hidden
     height: 200px
+
 
 .project-box 
     padding-bottom: 10px
@@ -445,14 +559,15 @@ em
         text-align: center
         font-weight: 400
         font-size: 17px
-        background: #fff
-        color: $green
+        
+        color: #fff
         margin: 0 5px
         +border-radius(5px)
         vertical-align: top
 
     &.black li
         color: #222!important
+        background: #fff
 
     img
         margin-bottom: 10px
@@ -472,24 +587,45 @@ em
 
 // Quotes
 
+.quotes
+    .col-sm-4
+        padding: 0 20px
+
 blockquote
     padding: 0
     border: 0
     color: #666
     line-height: 1.5em
     font-weight: 300
+    font-size: 15px
+    background: #eee
+    padding: 20px
+    position: relative
+
+blockquote:after
+    content: ""
+    width: 0
+    height: 0
+    border-left: 20px solid transparent
+    border-right: 20px solid transparent
+    border-top: 20px solid #eee
+    position: absolute
+    bottom: -20px
+    right: 50px
 
 .quote-author
-    font-size: 17px
+    margin-top: 30px
+    font-size: 20px
     text-align: right
-    margin-bottom: 10px
+    margin-bottom: 5px
     font-weight: 300
+    font-family: "Homenaje"
 
 .quote-details
-    font-size: 12px
+    font-size: 13px
     text-align: right
     line-height: 1.3em
-    color: #aaa
+    color: #bbb
     
 
 
@@ -497,7 +633,22 @@ blockquote
 
 #footer
     background: #555
+    margin-top: 20px
+
+
+    *
+        color: #fff
+        font-size: 14px
 
     .container
         color: #fff!important
+
+    li
+        list-style-type: none
+
+    .head
+        text-transform: uppercase
+        font-weight: 600
+        margin: 10px 0
+
 

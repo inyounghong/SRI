@@ -74,7 +74,7 @@
                     <div class="col-sm-4">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/backgrounds/about2.jpg" height="400">
                             </div>
                             <h3>SRI Research Network and Resources</h3>
                             <p>SRI-Rice currently maintains several research databases and bibliographies that allow people throughout the world access to citations (and non-subscription articles) on SRI research. These include a 1) chronological bibliographic listing (journal articles from all countries), 2) searchable RefWorks research database (includes journal articles as well as theses and proceedings) and the 3) Zotero SRI Research Network, (previously at Mendeley) which has a forum for discussion and groups tagged by topic. </p>
@@ -106,7 +106,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/backgrounds/header.jpg" height="200">
+                                <img src="img/backgrounds/benefits.jpg" height="200">
                             </div>
                             <h3>Improving and Scaling up of SRI in West Africa</h3>
                             <p>This project is the 3-year first phase of a regional World Bank-financed project to increase rice productivity throughout a 13-country Economic Community of West African States (ECOWAS) project area. The project, which is being implemented January 2014 - December 2016, is part of the larger West Africa Agricultural Productivity Program (WAAPP)... </p>
@@ -118,7 +118,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/backgrounds/comparison.jpg" height="400">
                             </div>
                             <h3>Peace Corps Collaboration with SRI-Rice</h3>
                             <p>Beginning in 2012, SRI-Rice has been providing SRI-related technical advice, facilitating trainings, and helping to develop training materials for Peace Corps volunteers and their partners in Africa through a partnership with the West Africa Food Security Partnership (WAFSP). The WAFSP, a first-of-its-kind partnership between USAID and Peace Corps country programs in 11 countries throughout West Africa, collaborated with SRI-Rice on two regional SRI trainings, (September 2012 and April/May 2013), with participants from Benin, The Gambia, Guinea, Senegal and Togo.</p>
@@ -130,7 +130,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/backgrounds/rice-fields.jpg" height="400">
                             </div>
                             <h3>SRI Collaboration in Douentza, Mali</h3>
                             <p>From 2012 to 2014, SRI trials and scaling up were undertaken near Douentza, Mali, by the Malian NGO "3A-Sahel" in collaboration with SRI Global, Inc. and the Bridging Peace Foundation. The data collection design and data analysis is being assisted by SRI-Rice at Cornell University.</p>
@@ -140,7 +140,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/backgrounds/header.jpg" height="200">
+                                <img src="img/backgrounds/sri-plants.jpg" height="200">
                             </div>
                             <h3>The West Africa SRI Network</h3>
                             <p>The West Africa SRI Network website was developed and is maintained by SRI-Rice in order to provide a platform for sharing knowledge and resources related to SRI in West Africa. The website, which runs on a Ning platform, operates in both French and English.</p>
@@ -175,7 +175,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/group.jpg" height="400">
                             </div>
                             <h3>Haiti Initiative</h3>
                             <p>Through the Haiti Initiative, SRI-Rice has been providing technical back-stopping for SRI projects in Haiti since 2010. During June 2013, an SRI Training of Trainers program in the Coronel-Dubre region took place in collaboration with the iF Foundation and the Better U iF and BUF SRI training 2013Foundation (BUF). SRI-Rice subsequently began working with iF Foundation on a pilot project near Milot in Northern Haiti. During 2013 and 2014, SRI-Rice intern Zhoucen Feng helped set up SRI comparison and varietal trials, train technicians to monitor and evaluate yield data using scientific methods, and test several cell phone-based data collection models. </p>
@@ -195,7 +195,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/rice.jpg" height="400">
                             </div>
                             <h3>Reducing Inorganic Arsenic Levels in Rice by Appropriate Water Management</h3>
                             <p>The research project "Reducing Inorganic Arsenic Levels in Rice by Appropriate Water Management" was among twelve successful proposals selected by the David R. Atkinson Center for a Sustainable Future to receive funding from the 2014 Academic Venture Fund. The System of Rice Intensification, which recommends moist rather than flooded fields, is one of the water management regimes that will be investigated in regards to its potential to reduce arsenic content in rice. </p>
@@ -205,7 +205,7 @@
                     <div class="col-sm-6">
                         <div class="project-box">
                             <div class="project-image">
-                                <img src="img/projects/example.jpg" height="400">
+                                <img src="img/backgrounds/about2.jpg" height="400">
                             </div>
                             <h3>Equipment Initiative Initiative</h3>
                             <p>One of the bottlenecks to adoption of SRI in many areas is access to equipment, primarily that needed to carry out planting and weeding operations. This is especially important where labor is expensive or unavailable, or where farmers are already used to mechanized equipment. As SRI methods require changes in some of the conventional rice production practices, equipment must be adapted or invented in order work effectively.</p>

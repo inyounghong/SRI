@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Homenaje);
 .page {
   margin-top: 54px;
@@ -8,7 +8,7 @@
 
 .container {
   color: #333;
-  padding: 40px 0;
+  padding: 50px 0;
   font-size: 15px;
   line-height: 1.5em; }
   .container.main {
@@ -18,6 +18,14 @@
   background: #7FC356; }
   .section.g * {
     color: #fff !important; }
+  .section.g li {
+    color: #222 !important; }
+.section.t {
+  background: #1DA7A7; }
+  .section.t * {
+    color: #fff !important; }
+  .section.t li {
+    color: #222 !important; }
 .section.o {
   background: #E89E41; }
 .section.gr {
@@ -45,6 +53,10 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #7FC356; }
+  .message.t:after {
+    border-top: 20px solid #1DA7A7; }
+  .message.o:after {
+    border-top: 20px solid #E89E41; }
 
 .r90 {
   width: 90%;
@@ -53,17 +65,33 @@
 .row.padding .col-sm-6 {
   padding: 0 30px; }
 
+.row img {
+  max-width: 100%; }
+
+.col-sm-4 p, .col-sm-3 p {
+  font-size: 16px; }
+
 .colored {
   background: #f8f8f8;
   position: relative;
   overflow: hidden;
   z-index: 10; }
+  .colored.orange {
+    background: #E89E41; }
   .colored.black {
     background: #444; }
+  .colored.teal {
+    background: #1DA7A7; }
   .colored * {
     color: #fff; }
   .colored.green {
     background: #7FC356; }
+  .colored .container {
+    padding: 40px 0 20px; }
+  .colored h4 {
+    color: #fff !important;
+    font-weight: 500;
+    margin-bottom: 40px; }
 
 .colored::before {
   content: "";
@@ -100,7 +128,7 @@
   font-weight: 400; }
 
 p.big {
-  font-size: 18px;
+  font-size: 20px;
   width: 70%;
   margin: 10px auto 40px;
   line-height: 1.5em; }
@@ -114,7 +142,7 @@ p.main {
 p {
   margin: 10px 0;
   font-size: 17px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   font-weight: 300;
   color: #000; }
   p b {
@@ -128,10 +156,30 @@ p.med {
 .row.sm p {
   font-size: 15px; }
 
+.floating-text {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box; }
+  .floating-text.float-left {
+    padding-right: 60px; }
+  .floating-text.float-right {
+    padding-left: 60px; }
+
+.floating-image {
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 15px; }
+  .floating-image img {
+    max-width: 100%; }
+
 h1 {
   text-align: center;
   margin: 10px 0 30px;
-  font-family: "Homenaje"; }
+  font-family: "Homenaje";
+  font-size: 40px; }
 
 h4 {
   font-size: 15px;
@@ -208,6 +256,9 @@ h3 {
   .navbar a {
     color: #fff !important;
     font-weight: 400; }
+  .navbar .navbar-brand img {
+    position: relative;
+    top: -2px; }
 
 #support {
   background: #7FC356; }
@@ -224,20 +275,58 @@ em {
   .navbar-default a {
     color: #fff; }
 
-.banner li {
-  max-height: 400px;
-  overflow: hidden; }
-.banner img {
-  width: 100%; }
-.banner .caption {
-  position: absolute;
-  top: 300px;
-  width: 400px;
-  margin: 0 auto;
-  color: #fff;
-  text-align: center;
+.info-banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  background: #000; }
+  .info-banner * {
+    color: #fff; }
+  .info-banner h4 {
+    color: #fff !important; }
+  .info-banner img#bg {
+    width: 100%;
+    position: absolute;
+    opacity: 0.4; }
+  .info-banner .banner-text {
+    z-index: 99;
+    position: relative; }
+
+.text-banner {
   background: #7FC356;
-  padding: 30px; }
+  font-family: "Homenaje"; }
+  .text-banner .container {
+    max-width: 1000px;
+    margin: auto; }
+  .text-banner .banner-main {
+    font-size: 34px;
+    line-height: 1.3em;
+    padding-top: 20px; }
+  .text-banner .banner-small {
+    text-align: right;
+    font-size: 22px;
+    margin-top: 10px; }
+  .text-banner * {
+    color: #fff; }
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  background: #000; }
+  .banner img {
+    width: 100%;
+    opacity: 0.6; }
+  .banner .caption {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 200;
+    font-family: "Homenaje"; }
 
 .side-banner {
   height: 400px;
@@ -254,8 +343,13 @@ em {
   background-size: cover !important; }
 
 .img-banner {
-  height: 350px;
+  height: 500px;
   background-size: cover !important; }
+  .img-banner * {
+    color: #fff; }
+
+#problem {
+  background: url("../img/problem.jpg") no-repeat; }
 
 #about-us {
   background: url("../img/group.jpg") no-repeat; }
@@ -277,13 +371,7 @@ em {
 
 .people_wrap {
   text-align: center;
-  border: 1px solid #eee;
-  padding: 30px 15px;
-  height: 380px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px; }
+  padding: 30px 15px; }
   .people_wrap .people_img {
     width: 100px;
     height: 100px;
@@ -316,7 +404,9 @@ em {
   margin-bottom: 20px; }
 
 .project-box img {
-  max-width: 100%; }
+  max-width: none;
+  height: auto;
+  min-width: 100%; }
 
 .project-image {
   overflow: hidden;
@@ -353,8 +443,7 @@ em {
     text-align: center;
     font-weight: 400;
     font-size: 17px;
-    background: #fff;
-    color: #7FC356;
+    color: #fff;
     margin: 0 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -362,7 +451,8 @@ em {
     border-radius: 5px;
     vertical-align: top; }
   .img-list.black li {
-    color: #222 !important; }
+    color: #222 !important;
+    background: #fff; }
   .img-list img {
     margin-bottom: 10px; }
 
@@ -372,28 +462,58 @@ em {
   .step img {
     max-width: 100%; }
 
+.quotes .col-sm-4 {
+  padding: 0 20px; }
+
 blockquote {
   padding: 0;
   border: 0;
   color: #666;
   line-height: 1.5em;
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 15px;
+  background: #eee;
+  padding: 20px;
+  position: relative; }
+
+blockquote:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #eee;
+  position: absolute;
+  bottom: -20px;
+  right: 50px; }
 
 .quote-author {
-  font-size: 17px;
+  margin-top: 30px;
+  font-size: 20px;
   text-align: right;
-  margin-bottom: 10px;
-  font-weight: 300; }
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-family: "Homenaje"; }
 
 .quote-details {
-  font-size: 12px;
+  font-size: 13px;
   text-align: right;
   line-height: 1.3em;
-  color: #aaa; }
+  color: #bbb; }
 
 #footer {
-  background: #555; }
+  background: #555;
+  margin-top: 20px; }
+  #footer * {
+    color: #fff;
+    font-size: 14px; }
   #footer .container {
     color: #fff !important; }
+  #footer li {
+    list-style-type: none; }
+  #footer .head {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0; }
 
 /*# sourceMappingURL=styles.css.map */

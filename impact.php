@@ -36,7 +36,7 @@
     	</div>
 
 
-        <div class="section g message">
+        <div class="section t message">
             <div class="container">
                 <h3>SRI requires fewer inputs, <b>saving farmers money</b>.</h3>
             </div>
@@ -47,7 +47,7 @@
             <div class="row c">
                 <div class="col-sm-3">
                     <img src="img/icons/seeds.png">
-                    <h3>No New Seeds</h3>
+                    <h3>Any Rice Variety</h3>
                     <p>SRI methods can be used on any rice variety, so farmers can continue using their regular seeds instead of buying new ones.<p>
                 </div>
                 <div class="col-sm-3">
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="section g message">
+        <div class="section o message">
             <div class="container">
                 <h3>SRI results in greater yields, <b>increasing incomes</b> for farmers and <b>combating hunger</b>.</h3>
             </div>
@@ -77,25 +77,23 @@
         <div class="container">
 
             <div class="row c">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/storm.png">
                     <h3>More Resistant Plants</h3>
                     <p>Plants are able to grow stronger and deeper roots when spaced apart, making them more <b>resistant to wind, diseases, and drought</b>, which can sometimes destory entire fields of non-SRI rice.<p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/rice.png">
                     <h3>More Rice</h3>
                     <p>SRI rice grows taller and wider, producing larger, better grain. Rice grown with SRI can result in <b>30% more rice</b> for farmers to sell and for others to eat.<p>
                 </div>
                 
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/coin.png">
                     <h3>Increased Incomes</h3>
                     <p>More income for farmers. 68% increased income per hectare.<p>
                 </div>
-                <div class="col-sm-3">
-                    
-                </div>
+
             </div>
         </div>
 
@@ -108,28 +106,22 @@
         <div class="container">
 
             <div class="row c">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/rice.png">
-                    <h3>Better Plants and Soil</h3>
+                    <h3>Healthier Plants and Soil</h3>
                     <p>Better plant health and soil due to less agrochemical use.<p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/greenhouse.png">
-                    <h3>Reduces Greenhouse Gases</h3>
+                    <h3>Reduced Greenhouse Gas Emissions</h3>
                     <p>SRI enhances carbon sinks and lowers emissions of greenhouse gases that contribute to global warming.</b><p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <img src="img/icons/water.png">
                     <h3>Less Water</h3>
                     <p>Fields do not need to be continuously flooded, resulting in <b>25 to 50% less water</b> being used.<p>
                 </div>
-                <div class="col-sm-3">
-
-                </div>
             </div>
-        </div>
-
-        <div class="container">
         </div>
 
 

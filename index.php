@@ -11,7 +11,6 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="./css/unslider.css" media="screen">
     <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen">
 
     <!-- No background for nav bar on front page -->
@@ -25,7 +24,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/scroll.js"></script>
-	<script src="./js/unslider.min.js"></script>
     
 </head>
 <body>
@@ -36,104 +34,75 @@
 	<!-- Slider -->
 
 	<div class="banner">
-    <ul>
-        <li>
-        	<img src="img/rice.jpg">
-        	<div class="caption">This is a slide.</div>
-        </li>
-        <li>
-        	<img src="img/rice2.jpg">
-        	<div class="caption">This is a slide.</div>
-        </li>
-    </ul>
-
-    <!-- The HTML -->
-	<a href="#" class="unslider-arrow prev">Previous slide</a>
-	<a href="#" class="unslider-arrow next">Next slide</a>
-
-	<script>
-	    var unslider = $('.banner').unslider({
-			speed: 500,               //  The speed to animate each slide (in milliseconds)
-			delay: 3000,              //  The delay between slide animations (in milliseconds)
-			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-			dots: true,               //  Display dot navigation
-			fluid: false              //  Support responsive design. May break non-responsive designs
-		});
-	    
-	    $('.unslider-arrow').click(function() {
-	        var fn = this.className.split(' ')[1];
-	        
-	        //  Either do unslider.data('unslider').next() or .prev() depending on the className
-	        unslider.data('unslider')[fn]();
-	    });
-	</script>
-</div>
+	    <img src="img/banner.jpg" style="margin-top: -150px">
+        <div class="caption">Changing the way the world grows rice</div>
+	</div>
 	
-	<div class="container">
-		<br>
-		<h1>What is SRI?</h1>
-		<p class="big">The <b>System of Rice Intensification (SRI)</b> is a methodology that allows farmers to grow more more rice by using smarter management of plants, water, soil, and nutrients. Through small modifications to the traditional methodology of growing rice, farmers can significantly increase their production, alleviating hunger while also reducing costs, decreasing water usage, and being friendlier to the environment.</p>
-
-		<div class="c">
-		<img src="img/illustration_normal.png" width="150" style="display: inline-block;margin-right: 100px">
-
-			<img src="img/illustration_sri.png" width="150">
-		</div>
-			
-	
-
-	</div>
-
-	<div class="colored black" id="sri-plants">
-		<Br><br>
-		<p class="c">
-			<img src="img/illustration_normal_w.png" width="150" style="margin-right: 100px">
-			<img src="img/illustration_sri_w.png" width="150">
-			<Br><br><Br>
-		</p>
-	</div>
-
-
-	<div class="container">
-		<h4>Global Impact</h4>
-		<br>
-
-		<div class="row" id="impact">
-			<div class="col-sm-4 c">
-				<img src="img/icons/bowl.png" class="sm-icon">
-				<h3>Fights Hunger</h3>
-				<p>SRI rice fights hunger by increasing farmer's crop yields. Because SRI rice grow to be sturdier, they have a higher resistance to wind, drought, pests, and disease. SRI produces increases in grain yields 50-100% or more than traditional rice growing methods.</p>
-			</div>
-
-			<div class="col-sm-4 c">
-				<img src="img/icons/money.png" class="sm-icon">
-				<h3>Benefits Poor Farmers</h3>
-				<p>The SRI methodology reduces costs by reducing the requirements for seeds, water, chemical fertilizer, pesticides, and often labor. SRI reduces seed use by 80-95% and water by 30-50%. SRI reduces cost up to 20% less per hectare than traditional rice growing methods. </p>
-			</div>
-
-			<div class="col-sm-4 c">
-				<img src="img/icons/environment1.png" class="sm-icon">
-				<h3>Helps the Environment</h3>
-				<p>Growing rice with SRI is better for the environment. Up to 100% reduction in agrochemical use. Decreases emissions of greenhouse gases.
-				</p>
-			</div>
-		</div>
-		<br>
-	</div>
-
-	<div class="colored black" id="field">
+	<div class="colored teal">
 		<div class="container">
-			<p class="big">Since 1997, SRI has spread to over 55 countries.</p>
-
-			<div class="c">
-				<img src="img/backgrounds/world-map.png" width="700">
-			</div>
+			<h1>Who We Are</h1>
+			<p class="big">SRI-Rice is at the forefront in a revolution changing how the world grows rice, a staple food for billions of people and the economic backbone of farming communities around the world.</p>
 		</div>
 	</div>
 
 	<div class="container">
-		<h1>About Us</h1>
-		<p class="big">Our mission is to reduce hunger and extreme poverty by improving productivity of rice and other crops based on environment-friendly agricultural practices that preserve and improve the natural resource base and help to better withstand changing climate conditions. </p>
+		<div class="floating-text float-left">
+			<h1>The problem</h1> 
+
+			<p>Growing populations need food to eat, and for many that food will be rice. By 2050 farmers worldwide will have to produce xx% more rice, but conventional approaches to achieving this are poisoning farming communities and the environment, heating up the planet, using massive amounts of essential fresh water resources, locking farmers into cycles of debt to purchase chemical inputs, and failing to actually deliver the gains we really need.</p>
+		</div>
+		<div class="floating-image">
+			<img src="img/problem.jpg">
+		</div>
+	</div>
+
+<!-- 	<div class="img-banner" id="problem">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7 col-sm-offset-5">
+					<h1>The problem</h1> 
+
+					<p>Growing populations need food to eat, and for many that food will be rice. By 2050 farmers worldwide will have to produce xx% more rice, but conventional approaches to achieving this are poisoning farming communities and the environment, heating up the planet, using massive amounts of essential fresh water resources, locking farmers into cycles of debt to purchase chemical inputs, and failing to actually deliver the gains we really need.</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="container">
+		<div class="row">
+			
+			<div class="floating-image">
+				<img src="img/field.jpg">
+			</div>
+			<div class="floating-text float-right">
+				<h1>The Solution</h1> 
+
+				<p>Fortunately there’s an alternative. The System of Rice Intensification, or SRI, lets farmers increase yields while reducing or eliminating agrochemical use, increasing plant and soil health, reducing greenhouse gas emissions, and cutting water use up to 50%. SRI is simply a different and unexpected way of managing rice field differently, and can be used with any variety of rice. For over 10 million farmers in 50+ countries, SRI is already helping them change how rice is grown. <a href="aboutsri.php">Learn More</a></p>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div class="colored green">
+		<div class="container">
+			<h1>SRI-Rice</h1>
+
+			<p class="big">At the center of this revolution is SRI-Rice. Founded by the group responsible for spreading SRI from its humble origins in rural Madagascar, SRI-Rice has catalyzed the spread, innovation and adaptation of SRI. As the global hub of SRI… <a href="aboutus.php">Learn more</a>
+		</div>
+	</div>
+
+
+<!-- 	<div class="text-banner">
+		<div class="container">
+			<div class="banner-main">"Growing more with less – for many, this sounds unreal, but SRI applications from more and more places are showing that this is indeed possible."</div>
+
+			<div class="banner-small">World Bank Institute, Washington, DC</div>
+		</div>
+	</div> -->
+
+
+	<div class="container">
+		<h4>Our Team</h4>
 
 		<div class="row">
 			<div class="col-sm-3">
@@ -141,7 +110,7 @@
 					<div class="people_img"><img src="./img/people_erika.png"></div>
 					<div class="people_name">Erika Styger</div>
 					<div class="people_job">Director of Programs</div>
-					<div class="people_description">She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div>
+<!-- 					<div class="people_description">She has a PhD in Crop and Soil Sciences from Cornell University and has over 20 years experience with research and development programs in Africa. </div> -->
 				</div>
 			</div>
 
@@ -150,18 +119,16 @@
 					<div class="people_img"><img src="./img/people_lucy.png"></div>
 					<div class="people_name">Lucy Fisher</div>
 					<div class="people_job">Director of Communications</div>
-					<div class="people_description">Oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI websiteand social networking sites.</div>
+<!-- 					<div class="people_description">Oversees knowledge management initiatives and liaison with SRI networks around the world. She developed and maintains the SRI websiteand social networking sites.</div> -->
 				</div>
 			</div>
-
-			
 
 			<div class="col-sm-3">
 				<div class="people_wrap">
 					<div class="people_img"><img src="./img/people_devon.png"></div>
 					<div class="people_name">Devon Jenkins</div>
 					<div class="people_job">Technical Specialist</div>
-					<div class="people_description">assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div>
+					<!-- <div class="people_description">assigned to the World Bank-sponsored project on "Improving and Scaling Up SRI in West Africa</div> -->
 				</div>
 			</div>
 
@@ -170,53 +137,46 @@
 					<div class="people_img"><img src="./img/people_norman.png"></div>
 					<div class="people_name">Norman Uphoff </div>
 					<div class="people_job">Senior Advisor</div>
-					<div class="people_description">He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000...</div>
+					<!-- <div class="people_description">He is carrying on the networking, research and writing that he has been doing on behalf of SRI since 2000...</div> -->
 				</div>
 			</div>
 		</div>
-		<br>
-		<div class="button-wrap">
-			<a href="./aboutus.php" class="button">More</a>
-		</div>
-
-		<br><br>
 	</div>
 
-	<div class="g">
+	<div class="colored teal">
+
 		<div class="container">
-			<h1>Projects</h1>
-			<p class="big">Cornell's SRI-Rice Center has a broad impact across the world.</p>
+			<h1>What We Do</h1>
+	        <p class="big c">SRI-Rice is involved in supporting research and providing resources.</p>
 
-			<div class="row">
-				<div class="col-sm-4 c">
-					<img src="img/icons/research.png" class="s-icon">
-					<h3>Research &amp; Resources</h3>
-					<p>
-					</p>
-				</div>
-
-				<div class="col-sm-4 c">
-					<img src="img/icons/earth.png" class="s-icon">
-					<h3>Regional Initiatives</h3>
-					<p>
-					</p>
-				</div>
-
-				<div class="col-sm-4 c">
-					<img src="img/icons/research.png" class="s-icon">
-					<h3>Resources</h3>
-					<p>
-					</p>
-				</div>
-			</div>
-			<br><br>
-		</div>
+	        <ul class="img-list">
+	            <li>
+	                <img src="img/icons/computer.png"><br>
+	                Online Resources
+	            </li>
+	            <li>
+	                <img src="img/icons/africa.png"><br>
+	                West Africa Initiatives
+	            </li>
+	            <li>
+	                <img src="img/icons/latinamerica.png"><br>
+	                Latin America Initiatives
+	            </li>
+	            <li><img src="img/icons/research2.png" width="50" style="margin: 10px 0 14px"><br>
+	                Research
+	            </li>
+	            <li><img src="img/icons/shovel.png"><br>
+	                Equipment
+	            </li>
+	        </ul>
+	    </div>
 	</div>
+
 
 	<div class="container">
-		<h1>Testimonials</h1>
-
-		<div class="row">
+		<h4>Testimonials</h4>
+		<br>
+		<div class="row quotes">
 			<div class="col-sm-4">
 				<blockquote>"In rice, they're using a system called the System of Rice Intensification, which allows them to use less water, less fertilizer, more safe inputs. And they're seeing a big increase, doubling or tripling of yields, and a 75 percent increase in farm incomes because of that program, which has now reached almost 10,000 farm households, and we believe will reach 125,000 over time."</blockquote>
 
